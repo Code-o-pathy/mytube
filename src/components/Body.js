@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useDebugValue, useEffect } from "react";
+import Sidebar from "./Sidebar";
+import MainContainer from "./MainContainer";
+import { Outlet } from "react-router-dom";
+import { useDispatch } from "react-redux";
 
 const Body = () => {
-  return (
-    <div>Body</div>
-  )
-}
+  return <div className="flex cursor-default">
+    <Sidebar /> 
+    <Outlet/>
+  </div>;
+};
 
-export default Body
+export default Body;
