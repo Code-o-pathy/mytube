@@ -16,7 +16,7 @@ const list = [
 ];
 const api = "AIzaSyB95MvuZZVbZEXZZ2oHxnLrM8aKrwxDj9k";
 export const YOUTUBE_API =
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" +
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&key=" +
   api;
 
 export const GOOGLE_SEARCH_API=`https://clients1.google.com/complete/search?client=youtube&gs_ri=youtube&ds=yt&q=`
